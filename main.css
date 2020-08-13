@@ -1,0 +1,121 @@
+.container{
+    background-color: #192229;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    transform: scale(1.2);
+}
+
+.navbar a li{
+    list-style: none;
+    border: 1px solid grey;
+    padding: 1.3rem;
+    border-radius: 5px;
+    
+}
+
+.navbar a li:hover{
+    list-style: none;
+    border: 1px solid #6C63FF;
+    padding: 1.3rem;
+    border-radius: 5px;
+    
+}
+
+.inputbox{
+    text-align: center;
+    width: 15rem;
+    border: #6C63FF 2px solid;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+}
+
+.round{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    color: black;
+    background-color: #6C63FF;
+    padding: 1.3rem 1.6rem 1.3rem 1.3rem;
+    text-align: center;
+    margin: 1rem auto;
+    border: 0.1rem solid #26a0de;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.round:hover{
+    transform: scale(1.1);
+}
+
+hr{
+    color: grey;
+    text-decoration: none;
+    border: 1px solid grey;
+    background-color: grey;
+}
+
+.km-boxes-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row wrap;
+    padding: 1rem;
+
+}
+
+
+
+.km-boxes-container li{
+    border: grey 1px solid;
+    border-radius: 5px;
+    padding: 1.3rem;
+
+}
+
+
+.content-container{
+    text-align: center;
+    place-content: center;
+}
+
+.running-img{
+    margin: 0 auto;
+    background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333c40;
+    font-weight: 500;
+}
+
+.total:hover{
+    background-color: #6C63FF;
+}
+
+.total li{
+    list-style: none;
+    padding: 1.3rem 1rem;
+    
+}
+

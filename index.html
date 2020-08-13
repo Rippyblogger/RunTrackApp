@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic%7CInter:300,regular,500,600,700,900" media="all">
+    <title>Run Tracker</title>
+</head>
+<body class="container">
+    <div>
+        <ul class="navbar">
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Run History</li></a>
+            <a href=""><li>About</li></a>
+        </ul>
+    </div>
+
+    <div class="content-container">
+        <figure class="running-img">
+            <img src="./images/undraw_fitness_stats_sht6.svg" alt="A running man" width = 600px>
+            <figcaption>Number of kilometers run today</figcaption>
+        </figure>
+        
+        <form action="">
+            <input class="inputbox" type="number" placeholder="Number of kilometers" name="run" id="run" required>
+        </form>
+
+        <div>
+            <p class="round" id="add">Add</p>
+        </div>
+
+        <div>
+            <hr>
+        </div>
+
+        <div>
+            <p>Last 7 days</p>
+        </div>
+
+        <div>
+            <ul class="km-boxes-container">
+                <li id="sunday"> - </li>
+                <li id="monday"> - </li>
+                <li id="tuesday"> - </li>
+                <li id="wednesday"> - </li>
+                <li id="thursday"> - </li>
+                <li id="friday"> - </li>
+                <li id="saturday"> - </li>
+            </ul>
+        </div>
+
+
+        <div>
+            <ul class="total" >
+                <li>Total: </li>
+                <li id="total">0</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="total">
+                <li>Average Distance: </li>
+                <li id="avgDistance">0</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="total">
+                <li>This week's high: </li>
+                <li id="weekHigh">0</li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
