@@ -24,7 +24,7 @@
 .navbar a li{
     list-style: none;
     border: 1px solid grey;
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 5px;
     
 }
@@ -76,7 +76,8 @@ hr{
     list-style: none;
     justify-content: space-between;
     flex-direction: row wrap;
-    padding: 1rem;
+    padding: 0.5rem;
+    
 
 }
 
